@@ -34,3 +34,14 @@ Child Line.
 * Both parent and child can access the file descriptor.
 
 * One overwrites another while writing contents to file.
+
+Ques 3
+
+Output
+```
+child wait return -1
+parent wait return 5732
+```
+* If wait() in parent returns pid on success
+
+* if wait() in child returns -1
